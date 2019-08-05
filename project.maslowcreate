@@ -10,6 +10,58 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 125,
+                    "y": 97,
+                    "uniqueID": 195911,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 27
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Constant",
+                    "x": 117,
+                    "y": 172,
+                    "uniqueID": 311182,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 271,
+                    "y": 93,
+                    "uniqueID": 107028,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 40.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 266,
+                    "y": 252,
+                    "uniqueID": 151892,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -17,7 +69,14 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 195911,
+                    "ap2ID": 107028
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
