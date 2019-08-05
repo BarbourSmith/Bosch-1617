@@ -24,10 +24,23 @@
                 },
                 {
                     "atomType": "Constant",
-                    "name": "Constant",
-                    "x": 117,
-                    "y": 172,
+                    "name": "Colet Length",
+                    "x": 164,
+                    "y": 36,
                     "uniqueID": 311182,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 40.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Motor Length",
+                    "x": 148,
+                    "y": 164,
+                    "uniqueID": 978838,
                     "ioValues": [
                         {
                             "name": "number",
@@ -51,8 +64,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 266,
-                    "y": 252,
+                    "x": 305,
+                    "y": 180,
                     "uniqueID": 151892,
                     "ioValues": [
                         {
@@ -74,6 +87,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 195911,
+                    "ap2ID": 107028
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "height",
+                    "ap1ID": 311182,
                     "ap2ID": 107028
                 }
             ],
