@@ -12,8 +12,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Colet Length",
-                    "x": 164,
-                    "y": 36,
+                    "x": 110,
+                    "y": 31,
                     "uniqueID": 311182,
                     "ioValues": [
                         {
@@ -23,23 +23,10 @@
                     ]
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 200,
-                    "y": 224,
-                    "uniqueID": 151892,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 89
-                        }
-                    ]
-                },
-                {
                     "atomType": "Constant",
                     "name": "Motor Length",
-                    "x": 284,
-                    "y": 245,
+                    "x": 130,
+                    "y": 157,
                     "uniqueID": 978838,
                     "ioValues": [
                         {
@@ -51,21 +38,21 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 419,
-                    "y": 267,
-                    "uniqueID": 563610,
+                    "x": 305,
+                    "y": 95,
+                    "uniqueID": 151892,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 102
+                            "ioValue": 89
                         }
                     ]
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 494,
-                    "y": 201,
+                    "x": 400,
+                    "y": 135,
                     "uniqueID": 853556,
                     "ioValues": [
                         {
@@ -75,10 +62,41 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 405,
+                    "y": 198,
+                    "uniqueID": 936789,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 91.5
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 40.5
+                        }
+                    ],
+                    "currentEquation": "x + y"
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 622,
-                    "y": 71,
+                    "x": 401,
+                    "y": 258,
+                    "uniqueID": 563610,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 102
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 640,
+                    "y": 76,
                     "uniqueID": 195911,
                     "ioValues": [
                         {
@@ -90,8 +108,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 621,
-                    "y": 263,
+                    "x": 619,
+                    "y": 257,
                     "uniqueID": 325526,
                     "ioValues": [
                         {
@@ -120,24 +138,6 @@
                             "ioValue": 40.5
                         }
                     ]
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 751,
-                    "y": 211,
-                    "uniqueID": 936789,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 91.5
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 40.5
-                        }
-                    ],
-                    "currentEquation": "x + y"
                 },
                 {
                     "atomType": "Extrude",
@@ -226,12 +226,6 @@
                     "ap2ID": 936789
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 151892,
-                    "ap2ID": 853556
-                },
-                {
                     "ap1Name": "number",
                     "ap2Name": "height",
                     "ap1ID": 978838,
@@ -246,14 +240,26 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 563610,
-                    "ap2ID": 325526
+                    "ap1ID": 151892,
+                    "ap2ID": 853556
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 853556,
                     "ap2ID": 742862
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap1ID": 936789,
+                    "ap2ID": 379123
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 563610,
+                    "ap2ID": 325526
                 },
                 {
                     "ap1Name": "geometry",
@@ -272,12 +278,6 @@
                     "ap2Name": "3D shape 149298",
                     "ap1ID": 742862,
                     "ap2ID": 213352
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "zDist",
-                    "ap1ID": 936789,
-                    "ap2ID": 379123
                 },
                 {
                     "ap1Name": "geometry",
