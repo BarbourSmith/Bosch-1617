@@ -176,7 +176,7 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1072,
+                    "x": 979,
                     "y": 108,
                     "uniqueID": 213352,
                     "ioValues": [
@@ -197,6 +197,21 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1175,
+                    "y": 100,
+                    "uniqueID": 173819,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Bosch 1617EVS",
+                        "numberNeeded": 1,
+                        "costUSD": 169,
+                        "source": "https://www.amazon.com/dp/B00004TKHV",
+                        "totalNeeded": 0
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -293,8 +308,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 213352,
+                    "ap2ID": 173819
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 213352
+                    "ap1ID": 173819
                 }
             ],
             "fileTypeVersion": 1
