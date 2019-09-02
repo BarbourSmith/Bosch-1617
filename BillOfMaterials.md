@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Bosch 1617EVS|1|$169.00|https://www.amazon.com/dp/B00004TKHV|
-|Total: |1|$169.00| |
+|Bosch 1617EVS|3|$507.00|https://www.amazon.com/dp/B00004TKHV|
+|Total: |3|$507.00| |
 
- 3xCOG MSRP: $507.00
+ 3xCOG MSRP: $1521.00

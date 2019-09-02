@@ -155,8 +155,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 939,
-                    "y": 206,
+                    "x": 774,
+                    "y": 217,
                     "uniqueID": 379123,
                     "ioValues": [
                         {
@@ -176,8 +176,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1057,
-                    "y": 85,
+                    "x": 917,
+                    "y": 108,
                     "uniqueID": 213352,
                     "ioValues": [
                         {
@@ -196,13 +196,14 @@
                             "name": "3D shape 475663",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 1160,
-                    "y": 172,
+                    "x": 1053,
+                    "y": 118,
                     "uniqueID": 173819,
                     "ioValues": [],
                     "BOMitem": {
@@ -214,10 +215,19 @@
                     }
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 1181,
+                    "y": 195,
+                    "uniqueID": 545116,
+                    "ioValues": [],
+                    "selectedColorIndex": "2"
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1280,
-                    "y": 101,
+                    "x": 1316,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -314,8 +324,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 173819,
+                    "ap2ID": 545116
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 173819
+                    "ap1ID": 545116
                 }
             ],
             "fileTypeVersion": 1
