@@ -181,6 +181,10 @@
                     "uniqueID": 213352,
                     "ioValues": [
                         {
+                            "name": "3D shape 475663",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 149298",
                             "ioValue": 10
                         },
@@ -209,26 +213,26 @@
                     "BOMitem": {
                         "BOMitemName": "Bosch 1617EVS",
                         "numberNeeded": 1,
-                        "costUSD": 169,
+                        "costUSD": 0,
                         "source": "https://www.amazon.com/dp/B00004TKHV",
                         "totalNeeded": 0
                     }
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 1181,
+                    "x": 1109,
                     "y": 195,
                     "uniqueID": 545116,
                     "ioValues": [],
                     "selectedColorIndex": "2"
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
