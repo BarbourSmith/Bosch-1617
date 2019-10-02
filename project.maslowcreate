@@ -185,6 +185,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 475663",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 149298",
                             "ioValue": 10
                         },
@@ -194,10 +198,6 @@
                         },
                         {
                             "name": "3D shape 181334",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 475663",
                             "ioValue": 10
                         }
                     ],
@@ -219,20 +219,20 @@
                     }
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1075,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Color",
                     "name": "Color",
                     "x": 1109,
                     "y": 195,
                     "uniqueID": 545116,
                     "ioValues": [],
-                    "selectedColorIndex": "2"
+                    "selectedColorIndex": "10"
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
